@@ -2,6 +2,8 @@
 #import "Utilities.h"
 #import "AudioStreamer.h"
 
+#define AVCODEC_MAX_AUDIO_FRAME_SIZE 192000 //https://github.com/chelyaev/ffmpeg-tutorial/blob/master/tutorial03.c
+
 @interface RTSPPlayer ()
 @property (nonatomic, retain) AudioStreamer *audioController;
 @end
@@ -136,7 +138,7 @@
     }
 	
     // Allocate video frame
-    pFrame = avcodec_alloc_frame();
+    pFrame = av_frame_alloc();
 			
 	outputWidth = pCodecCtx->width;
 	self.outputHeight = pCodecCtx->height;
@@ -249,7 +251,7 @@ initError:
 - (void)convertFrameToRGB
 {
 	sws_scale(img_convert_ctx,
-              pFrame->data,
+              (const uint8_t * const * const)pFrame->data,
               pFrame->linesize,
               0,
               pCodecCtx->height,

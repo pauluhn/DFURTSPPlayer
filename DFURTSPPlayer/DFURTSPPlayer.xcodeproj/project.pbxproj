@@ -16,11 +16,6 @@
 		0649AB2D16E9200D001323D2 /* DFUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0649AB2C16E9200D001323D2 /* DFUViewController.m */; };
 		0649AB3016E9200D001323D2 /* DFUViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0649AB2E16E9200D001323D2 /* DFUViewController_iPhone.xib */; };
 		0649AB3316E9200D001323D2 /* DFUViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0649AB3116E9200D001323D2 /* DFUViewController_iPad.xib */; };
-		0649AB3B16E9200D001323D2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0649AB3A16E9200D001323D2 /* SenTestingKit.framework */; };
-		0649AB3C16E9200D001323D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0649AB1316E9200D001323D2 /* UIKit.framework */; };
-		0649AB3D16E9200D001323D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0649AB1516E9200D001323D2 /* Foundation.framework */; };
-		0649AB4516E9200D001323D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0649AB4316E9200D001323D2 /* InfoPlist.strings */; };
-		0649AB4816E9200D001323D2 /* DFURTSPPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0649AB4716E9200D001323D2 /* DFURTSPPlayerTests.m */; };
 		0649AB5516E92055001323D2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0649AB5216E92055001323D2 /* Default-568h@2x.png */; };
 		0649AB5616E92055001323D2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0649AB5316E92055001323D2 /* Default.png */; };
 		0649AB5716E92055001323D2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0649AB5416E92055001323D2 /* Default@2x.png */; };
@@ -43,17 +38,8 @@
 		19F0EB8C1A44CEB8001ADFAE /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F0EB851A44CEB8001ADFAE /* libavutil.a */; };
 		19F0EB8D1A44CEB8001ADFAE /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F0EB861A44CEB8001ADFAE /* libswresample.a */; };
 		19F0EB8E1A44CEB8001ADFAE /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F0EB871A44CEB8001ADFAE /* libswscale.a */; };
+		19F0EB901A44CFF4001ADFAE /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F0EB8F1A44CFF4001ADFAE /* libiconv.dylib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0649AB3E16E9200D001323D2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0649AB0816E9200D001323D2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0649AB0F16E9200D001323D2;
-			remoteInfo = DFURTSPPlayer;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0649AB1016E9200D001323D2 /* DFURTSPPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFURTSPPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,12 +56,7 @@
 		0649AB2C16E9200D001323D2 /* DFUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFUViewController.m; sourceTree = "<group>"; };
 		0649AB2F16E9200D001323D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DFUViewController_iPhone.xib; sourceTree = "<group>"; };
 		0649AB3216E9200D001323D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DFUViewController_iPad.xib; sourceTree = "<group>"; };
-		0649AB3916E9200D001323D2 /* DFURTSPPlayerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFURTSPPlayerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0649AB3A16E9200D001323D2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		0649AB4216E9200D001323D2 /* DFURTSPPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DFURTSPPlayerTests-Info.plist"; sourceTree = "<group>"; };
-		0649AB4416E9200D001323D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0649AB4616E9200D001323D2 /* DFURTSPPlayerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFURTSPPlayerTests.h; sourceTree = "<group>"; };
-		0649AB4716E9200D001323D2 /* DFURTSPPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFURTSPPlayerTests.m; sourceTree = "<group>"; };
 		0649AB5216E92055001323D2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0649AB5316E92055001323D2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0649AB5416E92055001323D2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -190,6 +171,7 @@
 		19F0EB851A44CEB8001ADFAE /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavutil.a; sourceTree = "<group>"; };
 		19F0EB861A44CEB8001ADFAE /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswresample.a; sourceTree = "<group>"; };
 		19F0EB871A44CEB8001ADFAE /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswscale.a; sourceTree = "<group>"; };
+		19F0EB8F1A44CFF4001ADFAE /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +179,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19F0EB901A44CFF4001ADFAE /* libiconv.dylib in Frameworks */,
 				0649ABDF16E93112001323D2 /* AudioToolbox.framework in Frameworks */,
 				0649ABD016E92CBE001323D2 /* CoreVideo.framework in Frameworks */,
 				0649ABCE16E92CB8001323D2 /* CoreImage.framework in Frameworks */,
@@ -218,16 +201,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0649AB3516E9200D001323D2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0649AB3B16E9200D001323D2 /* SenTestingKit.framework in Frameworks */,
-				0649AB3C16E9200D001323D2 /* UIKit.framework in Frameworks */,
-				0649AB3D16E9200D001323D2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -235,7 +208,6 @@
 			isa = PBXGroup;
 			children = (
 				0649AB1916E9200D001323D2 /* DFURTSPPlayer */,
-				0649AB4016E9200D001323D2 /* DFURTSPPlayerTests */,
 				0649AB1216E9200D001323D2 /* Frameworks */,
 				0649AB1116E9200D001323D2 /* Products */,
 			);
@@ -245,7 +217,6 @@
 			isa = PBXGroup;
 			children = (
 				0649AB1016E9200D001323D2 /* DFURTSPPlayer.app */,
-				0649AB3916E9200D001323D2 /* DFURTSPPlayerTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -253,6 +224,7 @@
 		0649AB1216E9200D001323D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				19F0EB8F1A44CFF4001ADFAE /* libiconv.dylib */,
 				0649ABC116E928E6001323D2 /* libz.dylib */,
 				0649ABBF16E928DF001323D2 /* libbz2.dylib */,
 				0649ABDE16E93112001323D2 /* AudioToolbox.framework */,
@@ -291,25 +263,6 @@
 				0649AB1C16E9200D001323D2 /* InfoPlist.strings */,
 				0649AB1F16E9200D001323D2 /* main.m */,
 				0649AB2116E9200D001323D2 /* DFURTSPPlayer-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		0649AB4016E9200D001323D2 /* DFURTSPPlayerTests */ = {
-			isa = PBXGroup;
-			children = (
-				0649AB4616E9200D001323D2 /* DFURTSPPlayerTests.h */,
-				0649AB4716E9200D001323D2 /* DFURTSPPlayerTests.m */,
-				0649AB4116E9200D001323D2 /* Supporting Files */,
-			);
-			path = DFURTSPPlayerTests;
-			sourceTree = "<group>";
-		};
-		0649AB4116E9200D001323D2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0649AB4216E9200D001323D2 /* DFURTSPPlayerTests-Info.plist */,
-				0649AB4316E9200D001323D2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -543,25 +496,6 @@
 			productReference = 0649AB1016E9200D001323D2 /* DFURTSPPlayer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0649AB3816E9200D001323D2 /* DFURTSPPlayerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0649AB4E16E9200D001323D2 /* Build configuration list for PBXNativeTarget "DFURTSPPlayerTests" */;
-			buildPhases = (
-				0649AB3416E9200D001323D2 /* Sources */,
-				0649AB3516E9200D001323D2 /* Frameworks */,
-				0649AB3616E9200D001323D2 /* Resources */,
-				0649AB3716E9200D001323D2 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0649AB3F16E9200D001323D2 /* PBXTargetDependency */,
-			);
-			name = DFURTSPPlayerTests;
-			productName = DFURTSPPlayerTests;
-			productReference = 0649AB3916E9200D001323D2 /* DFURTSPPlayerTests.octest */;
-			productType = "com.apple.product-type.bundle.ocunit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -569,6 +503,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = DFU;
+				LastTestingUpgradeCheck = 0610;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Bogdan Furdui";
 			};
@@ -585,7 +520,6 @@
 			projectRoot = "";
 			targets = (
 				0649AB0F16E9200D001323D2 /* DFURTSPPlayer */,
-				0649AB3816E9200D001323D2 /* DFURTSPPlayerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -605,31 +539,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0649AB3616E9200D001323D2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0649AB4516E9200D001323D2 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		0649AB3716E9200D001323D2 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0649AB0C16E9200D001323D2 /* Sources */ = {
@@ -645,23 +555,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0649AB3416E9200D001323D2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0649AB4816E9200D001323D2 /* DFURTSPPlayerTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0649AB3F16E9200D001323D2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0649AB0F16E9200D001323D2 /* DFURTSPPlayer */;
-			targetProxy = 0649AB3E16E9200D001323D2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0649AB1C16E9200D001323D2 /* InfoPlist.strings */ = {
@@ -688,14 +582,6 @@
 			);
 			name = DFUViewController_iPad.xib;
 			path = ..;
-			sourceTree = "<group>";
-		};
-		0649AB4316E9200D001323D2 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0649AB4416E9200D001323D2 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -797,40 +683,6 @@
 			};
 			name = Release;
 		};
-		0649AB4F16E9200D001323D2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DFURTSPPlayer.app/DFURTSPPlayer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DFURTSPPlayer/DFURTSPPlayer-Prefix.pch";
-				INFOPLIST_FILE = "DFURTSPPlayerTests/DFURTSPPlayerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		0649AB5016E9200D001323D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DFURTSPPlayer.app/DFURTSPPlayer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DFURTSPPlayer/DFURTSPPlayer-Prefix.pch";
-				INFOPLIST_FILE = "DFURTSPPlayerTests/DFURTSPPlayerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -848,15 +700,6 @@
 			buildConfigurations = (
 				0649AB4C16E9200D001323D2 /* Debug */,
 				0649AB4D16E9200D001323D2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0649AB4E16E9200D001323D2 /* Build configuration list for PBXNativeTarget "DFURTSPPlayerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0649AB4F16E9200D001323D2 /* Debug */,
-				0649AB5016E9200D001323D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
