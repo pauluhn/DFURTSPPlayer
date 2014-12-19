@@ -68,4 +68,6 @@
 
 - (AVPacket*)readPacket;
 
+- (void)av_free_packet_workaround_with_memory_leak;
+
 @end

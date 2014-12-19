@@ -365,6 +365,11 @@ initError:
     return &_currentPacket;   
 }
 
+- (void)av_free_packet_workaround_with_memory_leak
+{
+    _currentPacket.size = 0;
+}
+
 - (void)closeAudio
 {
     [_audioController _stopAudio];
